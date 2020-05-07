@@ -686,7 +686,7 @@ namespace Microsoft.Telepathy.ServiceBroker.Persistences.MSMQPersist
                     return false;
                 }
 
-                // No prefetching if no message avaialble
+                // No prefetching if no message available
                 if (this.outstandingFetchCount >= this.msmqMessageCount)
                 {
                     return false;
